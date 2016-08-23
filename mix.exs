@@ -31,7 +31,7 @@ defmodule Fluent.Mixfile do
   defp deps do
     [
       {:socket, "~> 0.2.0"},
-      {:poison, "~> 1.3.0"},
+      {:poison, "~> 2.0.0"},
       {:msgpax, "~> 0.6.0"},
       {:porcelain, "~> 2.0.0", only: :test},
     ]
