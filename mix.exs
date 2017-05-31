@@ -6,8 +6,8 @@ defmodule Fluent.Mixfile do
      version: "0.1.0",
      elixir: ">= 1.0.0",
      description: "fluentd client library",
-     package: package,
-     deps: deps]
+     package: package(),
+     deps: deps()]
   end
 
   # Configuration for the OTP application
